@@ -16,4 +16,4 @@ class RegisterView(View):
         :param request: 请求对象
         :return: 注册界面
         """
-        return render(request, 'register.html')
+        return render(request, 'Snake/贪吃蛇.html')
